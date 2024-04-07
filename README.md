@@ -14,4 +14,6 @@ Son compiladores de JavaScript que usan algunos empaquetadores como: Webpack, Ne
 * <b>index.html:</b> Contiene un script de tipo "module" y un src="/src/main.jsx", donde main.jsx es el punto de entrada de la aplicación.
 * <b>Import React from "react":</b> Importa las dependencias para React que están en la carpeta "node.modules"
 
+# npm
+Es el administrador de dependencias de Node
 
