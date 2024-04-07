@@ -17,3 +17,5 @@ Son compiladores de JavaScript que usan algunos empaquetadores como: Webpack, Ne
 # npm
 Es el administrador de dependencias de Node
 
+# App.jsx 
+Se utiliza para crear en él los componentes a usar en la UI
