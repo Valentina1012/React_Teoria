@@ -3,7 +3,8 @@
 Es una extensión de ECMAScript que se basa en XML. Esta extensión ayuda a escribit código declarativo (no imperativo) para que se programe de 
 forma más limpia y asi se lea mejor.
 Con JSX desbribis la interfaz que querés crear.
-
+* Para escribir expresiones se utilizan las llaves, por ejemplo: const name = "Miguel" <'h1'>Hola {name}/>. No se pueden poner declaraciones (código como condicionales) para que se evalúe dentro de las llaves
+* Los atributos se escriben en camelCase
 ## SWC y Babel 
 Son compiladores de JavaScript que usan algunos empaquetadores como: Webpack, Next.js y Vite.js.
 
