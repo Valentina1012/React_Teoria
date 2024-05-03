@@ -2,7 +2,15 @@
 ## useState()
 useStatees un Hook de React que permite agregar una variable de estado a su componente.<br>
 const [state, setState] = useState(initialState)
-La convención es nombrar variables de estado como [something, setSomething] si se usara "array destructuring".
+La convención es nombrar variables de estado como [something, setSomething] si se usara "array destructuring".<br>
+* initialState: El valor que desea que tenga el estado inicialmente. Puede ser un valor de cualquier tipo, pero existe un comportamiento especial para las funciones. Este argumento se ignora después del renderizado inicial.
+<p>useStatedevuelve una matriz con exactamente dos valores:</p>
+
+* El estado actual. Durante el primer renderizado, coincidirá con el que initialStatehas pasado.
+* La setfunción que le permite actualizar el estado a un valor diferente y activar una nueva representación.
+
+
+
 ## useEffect()
 <p>useEffectes es un Hook, por lo que solo puedes llamarlo en el nivel superior de tu componente o en tus propios Hooks. No puedes llamarlo bucles internos o condiciones. Si lo necesita, extraiga un nuevo componente y mueva el estado a él. Si no estás intentando sincronizar con algún sistema externo,  probablemente no necesites un Effect.</p>
 Debe pasar dos argumentos a useEffect:<br>
